@@ -9,6 +9,8 @@ Description: A canonicalized way to R package configuration striving for
 License: AGPL (>= 3)
 URL: https://gitlab.com/rpkg.dev/funky
 BugReports: https://gitlab.com/rpkg.dev/funky/-/issues
+Depends: 
+    R (>= 3.5)
 Imports: 
     checkmate (>= 2.3.2),
     cli (>= 3.6.4),

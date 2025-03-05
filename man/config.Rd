@@ -23,6 +23,7 @@ try(
 \seealso{
 Other package configuration data functions:
 \code{\link{augment_config}()},
-\code{\link{print_config}()}
+\code{\link{print_config}()},
+\code{\link{ptype_config}}
 }
 \concept{pkg_config_data}

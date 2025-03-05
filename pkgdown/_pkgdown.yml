@@ -12,3 +12,4 @@ reference:
   - config
   - augment_config
   - print_config
+  - ptype_config

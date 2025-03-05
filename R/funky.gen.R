@@ -178,7 +178,7 @@ has_config_val <- function(key,
 #'
 #' @inheritParams config_val
 #'
-#' @return `r pkgsnip::param_lbl("tibble_cols", cols = colnames(ptype_funky_config))`
+#' @return `r pkgsnip::param_lbl("tibble_cols", cols = colnames(ptype_config))`
 #' @family pkg_config_data
 #' @export
 #'
@@ -205,7 +205,7 @@ config <- function(pkg = utils::packageName(env = parent.frame())) {
   
   # ensure/complement df structure
   funky_config |>
-    vctrs::tib_cast(to = ptype_funky_config) |>
+    vctrs::tib_cast(to = ptype_config) |>
     tidyr::replace_na(replace = list(require = TRUE))
 }
 
@@ -292,6 +292,18 @@ print_config <- function(pkg = utils::packageName(env = parent.frame()),
     pal::pipe_table()
 }
 
+#' Package configuration data prototype
+#'
+#' An empty funky configuration data [tibble][tibble::tbl_df]. E.g. useful to start from when defining funky configuration data via [tibble::add_row()] calls.
+#'
+#' @format `r pkgsnip::return_lbl("tibble_cols", cols = colnames(ptype_config))`
+#' @family pkg_config_data
+#' @export
+#'
+#' @examples
+#' funky::ptype_config
+"ptype_config"
+
 utils::globalVariables(names = c(".",
                                  # tidyselect fns
                                  "any_of",
@@ -337,9 +349,3 @@ opt_name <- function(key,
   paste(pkg, key,
         sep = ".")
 }
-
-ptype_funky_config <- tibble::tibble(key = character(),
-                                     default_value = list(),
-                                     default_value_dynamic = character(),
-                                     require = logical(),
-                                     description = character())
