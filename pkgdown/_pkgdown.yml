@@ -1,0 +1,14 @@
+template:
+  package: pkgdown.tpl
+url: https://funky.rpkg.dev
+reference:
+- title: Package configuration values
+- contents:
+  - config_val
+  - config_val_default
+  - has_config_val
+- title: Package configuration data
+- contents:
+  - config
+  - augment_config
+  - print_config

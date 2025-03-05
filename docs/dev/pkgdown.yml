@@ -1,0 +1,8 @@
+pandoc: 3.6.3
+pkgdown: 2.1.1.9000
+pkgdown_sha: 87287f602d5889b3ee3ccd82a6c686f6e5874732
+articles: {}
+last_built: 2025-03-05T00:34Z
+urls:
+  reference: https://funky.rpkg.dev/reference
+  article: https://funky.rpkg.dev/articles

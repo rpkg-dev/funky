@@ -1,0 +1,17 @@
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://funky.rpkg.dev/dev/LICENSE.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/TODO.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/authors.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/index.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/reference/augment_config.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/reference/config.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/reference/config_val.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/reference/config_val_default.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/reference/env_var_name.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/reference/funky-package.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/reference/has_config_val.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/reference/index.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/reference/opt_name.html</loc></url>
+<url><loc>https://funky.rpkg.dev/dev/reference/print_config.html</loc></url>
+</urlset>
+
