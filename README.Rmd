@@ -29,8 +29,8 @@ library(magrittr,
 
 pkgsnip::md_snip(id = "pkgdown_site") %>%
   paste0("## Documentation\n\n",
-         "[![Netlify Status](https://api.netlify.com/api/v1/badges//deploy-status)]",
-         "(https://app.netlify.com/sites/-rpkg-dev/deploys)\n\n",
+         "[![Netlify Status](https://api.netlify.com/api/v1/badges/5871f05a-c171-43c2-9177-752f2a095f53/deploy-status)]",
+         "(https://app.netlify.com/sites/funky-rpkg-dev/deploys)\n\n",
          .) |>
   pal::cat_lines()
 ```
