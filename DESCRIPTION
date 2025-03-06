@@ -7,7 +7,7 @@ Authors@R:
 Description: A canonicalized way to R package configuration striving for
     user and developer convenience alike.
 License: AGPL (>= 3)
-URL: https://gitlab.com/rpkg.dev/funky
+URL: https://funky.rpkg.dev, https://gitlab.com/rpkg.dev/funky
 BugReports: https://gitlab.com/rpkg.dev/funky/-/issues
 Depends: 
     R (>= 3.5)

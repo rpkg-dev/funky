@@ -11,6 +11,7 @@ A canonicalized way to R package configuration striving for user and developer c
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://funky.rpkg.dev}
   \item \url{https://gitlab.com/rpkg.dev/funky}
   \item Report bugs at \url{https://gitlab.com/rpkg.dev/funky/-/issues}
 }
