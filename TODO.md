@@ -14,10 +14,10 @@
     ``` r
     #' @section Package configuration:
     #'
-    #' `r pkgsnip::md_snip("pkg_config")`
+    #' `r pkgsnip::md_snip("funky_config")`
     #'
     #' ```{r, echo = FALSE}
-    #' pal::print_pkg_config()
+    #' funky::print_config()
     #' ```
     #'
     ```
