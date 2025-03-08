@@ -9,6 +9,9 @@
 -   Add support for system keyrings as (5th) pkg config val src via [`keyring::key_get()`](https://keyring.r-lib.org/reference/key_get.html), which is more
     secure to store secrets than the existing srcs.
 
+-   Add support for secrets management servers/protocols like [OpenBao](https://openbao.org/) and [HashiCorp Vault](https://www.hashicorp.com/products/vault) as
+    (6th) pkg config val src
+
 -   Document how to add pkg config info to `R/<pkg>-package.R`:
 
     ``` r
