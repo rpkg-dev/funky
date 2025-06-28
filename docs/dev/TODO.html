@@ -45,15 +45,16 @@
 <li>add support for TOML to the config pkg</li>
 </ul></li>
 <li><p>Add support for system keyrings as (5th) pkg config val src via <a href="https://keyring.r-lib.org/reference/key_get.html" class="external-link"><code>keyring::key_get()</code></a>, which is more secure to store secrets than the existing srcs.</p></li>
+<li><p>Add support for secrets management servers/protocols like <a href="https://openbao.org/" class="external-link">OpenBao</a> and <a href="https://www.hashicorp.com/products/vault" class="external-link">HashiCorp Vault</a> as (6th) pkg config val src</p></li>
 <li>
 <p>Document how to add pkg config info to <code>R/&lt;pkg&gt;-package.R</code>:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co">#' @section Package configuration:</span></span>
 <span><span class="co">#'</span></span>
-<span><span class="co">#' `r pkgsnip::md_snip("pkg_config")`</span></span>
+<span><span class="co">#' `r pkgsnip::md_snip("funky_config")`</span></span>
 <span><span class="co">#'</span></span>
 <span><span class="co">#' ```{r, echo = FALSE}</span></span>
-<span><span class="co">#' pal::print_pkg_config()</span></span>
+<span><span class="co">#' funky::print_config()</span></span>
 <span><span class="co">#' ```</span></span>
 <span><span class="co">#'</span></span></code></pre></div>
 <p>and figure out best way to show same info on pkgdown site (pkgdown builds the <code>R/&lt;pkg&gt;-package.R</code> to <code>/reference/&lt;pkg&gt;-package.html</code> but doesn’t link it anywhere it seems).</p>
@@ -68,7 +69,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.9000.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
 </div>
 
     </footer></div>
