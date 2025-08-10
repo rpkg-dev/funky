@@ -9,8 +9,15 @@
 -   Add support for system keyrings as (5th) pkg config val src via [`keyring::key_get()`](https://keyring.r-lib.org/reference/key_get.html), which is more
     secure to store secrets than the existing srcs.
 
--   Add support for secrets management servers/protocols like [OpenBao](https://openbao.org/) and [HashiCorp Vault](https://www.hashicorp.com/products/vault) as
+-   Add support for secrets management servers/protocols like [OpenBao](https://openbao.org/) / [HashiCorp Vault](https://www.hashicorp.com/products/vault) as
     (6th) pkg config val src
+    
+    Open question: Are there other open protocols/standards to support? E.g. Bitwarden's [Secrets Manager](https://bitwarden.com/help/secrets-manager-overview/)
+    is [not open-source](https://github.com/dani-garcia/vaultwarden/discussions/3368), i.e. not supported by [Vaultwarden](https://github.com/dani-garcia/vaultwarden/blob/e35c6f87054563af6ecfec9f100779523b62c473/src/db/models/organization.rs#L201).
+    
+    General notes on Bitwarden (password manager) vs. Vault:
+    - https://discuss.hashicorp.com/t/frontend-password-manager-using-vault-as-the-backend/44327/2
+    - https://discuss.hashicorp.com/t/managing-secrets-in-bitwarden-vs-hashicorp-vault-best-practices-for-isolation-and-naming-conflicts/71822/2
 
 -   Document how to add pkg config info to `R/<pkg>-package.R`:
 
